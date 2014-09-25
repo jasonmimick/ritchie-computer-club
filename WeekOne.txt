@@ -1,0 +1,115 @@
+INFO CHRCC/1.0
+Date: September 19, 2014
+Subject: Start of club and first excersise
+
+  Welcome - We begin the journey of learning how to program computers by
+studying how web pages on the Internet work. Web pages are programmed in a
+language called HTML, which is a special way to code how the web page looks. 
+
+  HTML stands for HyperText Markup Language and it's just text along with 
+commands called "tags" which tell your web browser how to show the text.
+
+  For example, the code:
+
+Did you <bold>hear</bold> that?
+
+would make your browser show that sentence but the word "hear" would look 
+bold, which means darker and stronger. Notice that "tags" are surrounded
+by angle brackets. Tags must also get "closed" - the <bold> only works on
+the word "hear" - the </bold> turns "off" the boldness, the slash on a tag
+signifies the end or closing of a tag. No text passed this will show up as bold. 
+Tags normally come in pairs like <p> and </p>, the first is called the "start
+tag" and the second is called the "end tag"
+
+
+                        Exercise #1 - HelloWorld HTML
+                        -----------------------------
+
+
+  (1) Start your Text Editor.
+  Windows: (Windows+R), type "Notepad"
+  OS X: (Command+Space), type "TextEdit" 
+        Be sure to change your file to Text format - Format/Make Plain Text
+
+  (2) Type the following:
+
+<html>
+  <body>
+    Hello World!
+  </body>
+</html>
+
+  (3) Save your program as "HelloWorld.html"
+  Windows: (Control+S) and type in file name
+  OS X: (Command+S) and type in file name
+
+    (3a) Do NOT close your text editor. KEEP IT OPEN!
+
+    (3b) Write down where your saved your program:
+
+    ____________________________________________________________________
+     
+  (4) Start up your web browser. 
+  Windows: (Windows+R) and type "iexplore"
+  OS X: (Command+Space) and type "safari"
+
+  (5) Tell your web browser to open up your
+  "HelloWorld.html" program.
+   Windows: (Control+O), click the "Browse..."  button and find your program 
+   OS X: (Command+O) and find your program 
+
+    (5a) Do NOT close your web browser. KEEP IT OPEN!
+
+  (6) What do you see? Do things look different in the web browser than in
+  your text editor?
+
+  ______________________________________________________________________
+
+  (7) Go back to your text editor. Add the following after the <html>
+  but BEFORE the <body>
+
+<head>
+  <style>
+    body {
+      font-size: 200%;
+      color: red;
+    }
+  </style>
+</head>
+
+  (8) Save your program again.
+
+  (9) Switch back to your browser and reload your program
+  Windows: (Control+R)
+  OS X: (Command+R)
+
+  (10) What do you see now? Do things look different now?
+
+  ______________________________________________________________________
+
+
+                               Looking ahead... 
+                              ------------------
+
+  (1) How do you change the color of the text on your page? 
+
+	------------------------------------------------- 
+
+  (2) What happens if you set the 'font-size' property in the body
+  style to 50%? Is the text bigger or smaller in your web browser?
+
+	------------------------------------------------- 
+
+
+  * Good place to learn HTML: http://www.w3schools.com/html/default.asp
+
+   TAG					Meaning
+   ---                  ------------------------------------------
+  <html>                Start of HTML document
+  <head>                Contains header elements, typically styles and 
+                        Javascript code
+  <body>                Declares the main part of the document
+  <style>               CSS tag to declare how HTML elements are rendered
+  <h1>                  Large Heading
+  <p>                   Paragraph
+  <br/>                 Line BReak
